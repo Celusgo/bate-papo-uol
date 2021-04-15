@@ -7,7 +7,7 @@ body{
     align-items: center;
     justify-content: space-between;
     height:80px;
-    width:375px;
+    width:100vw;
     background-color:#ffffff;
     position:fixed;
     left:0;
@@ -20,7 +20,7 @@ body{
     align-items: center;
     justify-content: space-between;
     height:80px;
-    width:375px;
+    width:100vw;
     background-color:#ffffff;
     position:fixed;
     left:0;
@@ -48,7 +48,7 @@ body{
     margin-left:22px;
     border: none;
     outline:none;
-    width:300px;
+    width:80%;
     height:30px;
 }
 
@@ -67,26 +67,52 @@ body{
   color:#000000;
 }
 
+.bottom input:-moz-placeholder{
+    font-family:'Roboto';
+    font-weight: normal;
+    font-style: italic;
+    font-size:18px;
+    color:#000000;
+}
+
 .bottom input::-moz-placeholder{
     font-family:'Roboto';
     font-weight: normal;
     font-style: italic;
     font-size:18px;
     color:#000000;
-  }
+}
 
-  .bottom input::-moz-placeholder{
-    font-family:'Roboto';
-    font-weight: normal;
-    font-style: italic;
-    font-size:18px;
-    color:#000000;
-  }
+.room{
+    height:100%;
+    width:100vw;
+    margin-top:106px;
+    margin-bottom:106px;
+}
 
-  .bottom input:-ms-input-placeholder{
-    font-family:'Roboto';
-    font-weight: normal;
-    font-style: italic;
-    font-size:18px;
-    color:#000000;
-  }
+.status{
+    margin-top:4px;
+    overflow-wrap: break-word;
+    height:40px;
+    width: 100vw;
+    background-color:#dcdcdc;
+    border-radius:2px;
+}
+
+.conversa{
+    margin-top:4px;
+    overflow-wrap: break-word;
+    height:40px;
+    width: 100vw;
+    background-color:#ffffff;
+    border-radius:2px;
+}
+
+.privado{
+    margin-top:4px;
+    overflow-wrap: break-word;
+    height:40px;
+    width: 100vw;
+    background-color:#ffdede;
+    border-radius:2px;
+}
