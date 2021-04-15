@@ -91,15 +91,18 @@ body{
 }
 
 .status{
+    display: flex;
+    padding: 20px 0px 20px 0px;
     margin-top:4px;
     overflow-wrap: break-word;
-    height:40px;
     width: 100vw;
     background-color:#dcdcdc;
     border-radius:2px;
 }
 
 .conversa{
+    display: flex;
+    padding: 20px 0px 20px 0px;
     margin-top:4px;
     overflow-wrap: break-word;
     width: 100vw;
@@ -114,4 +117,26 @@ body{
     width: 100vw;
     background-color:#ffdede;
     border-radius:2px;
+}
+
+.username{
+    font-family:'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    color:black;
+}
+
+.user-message{
+    font-family:'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.message-time{
+    margin-left:8px;
+    margin-right:5px;
+    font-family:'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color:#aaaaaa;
 }
