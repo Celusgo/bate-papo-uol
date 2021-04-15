@@ -92,31 +92,35 @@ body{
 
 .status{
     display: flex;
-    padding: 20px 0px 20px 0px;
+    padding: 15px 0px;
     margin-top:4px;
     overflow-wrap: break-word;
     width: 100vw;
     background-color:#dcdcdc;
     border-radius:2px;
+    overflow-x:auto;
 }
 
-.conversa{
+.talk{
     display: flex;
-    padding: 20px 0px 20px 0px;
+    padding: 15px 0px;
     margin-top:4px;
-    overflow-wrap: break-word;
+    overflow-wrap:break-word;
     width: 100vw;
     background-color:#ffffff;
     border-radius:2px;
+    overflow-x:auto;
 }
 
-.privado{
+.private{
+    display: flex;
+    padding: 15px 0px;
     margin-top:4px;
-    overflow-wrap: break-word;
-    height:40px;
+    overflow-wrap:break-word;
     width: 100vw;
     background-color:#ffdede;
     border-radius:2px;
+    overflow-x:auto;
 }
 
 .username{
