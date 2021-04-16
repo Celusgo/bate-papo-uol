@@ -91,7 +91,7 @@ body{
     height:100%;
     width:100vw;
     margin-top:106px;
-    margin-bottom:85px;
+    margin-bottom:106px;
 }
 
 .status{
@@ -147,3 +147,76 @@ body{
     font-size: 14px;
     color:#aaaaaa;
 }
+
+.login-screen{
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-login{
+    margin-top:72px;
+    width:130px;
+    height:92px;
+}
+
+.hidden{
+    display:none;
+}
+
+.button-login{
+    width:109px;
+    height:45px;
+    border-radius:9px;
+    border:none;
+    background-color: #e7e7e7;
+    margin-top:15px;
+}
+
+
+button p{
+    font-family:'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    color:#696969;
+}
+
+.inputname{
+    text-align: center;
+    width:261px;
+    height:54px;
+    border:1px solid #d7d7d7;
+    border-radius:4px;
+    align-items: center;
+    justify-content: center;
+    margin-top:94px;
+}
+
+.login-screen input::-webkit-input-placeholder{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color:#aeaeae;
+  }
+
+  .login-screen input:-moz-placeholder{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color:#aeaeae;
+  }
+
+  .login-screen input::-moz-placeholder{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color:#aeaeae;
+  }
