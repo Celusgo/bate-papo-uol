@@ -3,6 +3,8 @@ let conversasServidor=[];
 let nomeUsuario;
 //
 
+
+
 //Entrar na sala
 function perguntaNome(){
     nomeUsuario = prompt("Escreva seu nome:");
@@ -27,9 +29,9 @@ function perguntaNome(){
     }
 }
 perguntaNome();
-
-
 //
+
+
 
 //Se manter na sala
 function statusUsuario(){
@@ -88,6 +90,9 @@ function mensagensRecebidas(retorna){
 setInterval(carregarMensagens, 3000);
 //
 
+
+
+//Enviando mensagens do input com o botão
 function enviarMensagem(){
     const mensagem = document.querySelector("input");
 
@@ -103,4 +108,4 @@ function enviarMensagem(){
     mensagem.value = "";
     carregarMensagens();
 }
-
+//

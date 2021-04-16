@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color:#f3f3f3;
 }
@@ -87,12 +91,12 @@ body{
     height:100%;
     width:100vw;
     margin-top:106px;
-    margin-bottom:106px;
+    margin-bottom:85px;
 }
 
 .status{
     display: flex;
-    padding: 15px 0px;
+    padding: 15px 0px 15px 8px;
     margin-top:4px;
     overflow-wrap: break-word;
     width: 100vw;
@@ -103,7 +107,7 @@ body{
 
 .talk{
     display: flex;
-    padding: 15px 0px;
+    padding: 15px 0px 15px 8px;
     margin-top:4px;
     overflow-wrap:break-word;
     width: 100vw;
@@ -114,7 +118,7 @@ body{
 
 .private{
     display: flex;
-    padding: 15px 0px;
+    padding: 15px 0px 15px 8px;
     margin-top:4px;
     overflow-wrap:break-word;
     width: 100vw;
@@ -137,7 +141,6 @@ body{
 }
 
 .message-time{
-    margin-left:8px;
     margin-right:5px;
     font-family:'Roboto';
     font-weight: 400;
